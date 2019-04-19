@@ -7,6 +7,10 @@ class Dog
     @name
   end
   
+  def name=(input)
+    @name = input
+  end
+  
   def bark
     puts "woof!"
   end
